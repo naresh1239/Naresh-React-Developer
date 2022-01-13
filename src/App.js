@@ -1,17 +1,18 @@
 
 import Home from "./pages/Home"
  import Resume from "./pages/Resume"
-import { Routes, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div>
-       <Routes>
-      <Route path="newgitreactapp/"  element={<Home/>}></Route> 
-      <Route path="newgitreactapp/"  element={<Resume/>}></Route>
-      </Routes>
-    </div>
+   
+       <Switch>
+      <Route path="/" exact component={Home}></Route> 
+      <Route path="/Resume"  component={Resume}></Route>
+      </Switch>
+    
+    
   );
 }
 
