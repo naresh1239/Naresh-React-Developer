@@ -6,10 +6,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
        <Routes>
       <Route path="/" exact element={<Home/>}></Route> 
-      <Route path="/Resume" exact element={<Resume/>}></Route> 
+      <Route path="Resume" exact element={<Resume/>}></Route> 
       </Routes>
     </div>
   );
