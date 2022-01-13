@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.education-section{
+    padding: 100px 0;
+background-color: rgb(12, 7, 36);
+}
+.education-contaier{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.edu-center{
+ text-align: center;
+ padding: 100px 0;
+}
+.edu-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.edu-left{
+  width: 30%;
+  padding: 0 50px;
+}
+.edu-right{
+    width: 70%;
+    padding: 0 50px;
+    margin-top: -30px;
+  }
+.edu-left .btn{
+   padding: 20px 0;
+   margin: 10px 0;
+   text-align: center;
+   cursor: pointer;
+   font-size: 1.2rem;
+   background-color: rgb(12, 7, 36);
+    box-shadow: -1px 5px 37px -4px rgb(0 0 0);
+  }
+  .edu-right .main-div{
+    padding: 20px ;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 10px 0;
+   }
+   .progress{
+       width: 100%;
+       height: 100%;
+   }
+   .flex{
+       display: flex;
+       justify-content: space-between;
+   }
+   meter{
+       width: 50%;
+       height: 13px;
+   }
+   .education-api p a{
+       color: #64ffda;
+       text-decoration: none;
+   }
+   .education-api p a:hover{
+    color: #d6fff6;
+}
+@media screen and (max-width: 1322px) {
+  
+    .education-contaier{
+        width: 100%;
+     
+    }
+  
+    .edu-left{
+        width: 30%;
+        padding: 0 30px;
+        padding-bottom: 30px;
+
+      }
+      .edu-right{
+
+          width: 70%;
+          padding: 0 ;
+        }
+  }

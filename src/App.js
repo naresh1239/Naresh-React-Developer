@@ -1,17 +1,11 @@
 
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      
-        <p>
-          Edit <code>src/App.js</code>
-        </p>
-        <p>naresh kumawat</p>
-        <p>naresh kumawat</p>
-        <p>naresh kumawat</p>
-        
+      <Home/>
       
     </div>
   );

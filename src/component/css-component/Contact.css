@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contact-section{
+    width: 100%;
+    padding-top: 100px;
+    padding-top: 100px;
+    background: rgb(12, 7, 36);
+    text-align: center;
+}
+.contact-section h1{
+   font-size: 4rem;
+   padding: 20px 0;
+}
+

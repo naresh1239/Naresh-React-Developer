@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: rgb(235, 235, 250);
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: right;
+  position: relative;
+  z-index: 11;
+}
+.left-home {
+  width: 100%;
+  position: relative;
+}
+.left-home h4 {
+  font-size: 5rem;
+  color: rgb(231, 38, 96);
+}
+.section::before {
+  position: absolute;
+  left: 0%;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  filter: blur(155px);
+  background-color: rgb(12, 7, 36);
+  mix-blend-mode: hue;
+}
+.left-home p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  z-index: 11;
+}
+.section h1 {
+  position: absolute;
+  font-size: 15vw;
+  color: rgba(255, 255, 255, 0.034);
+  left: 50%;
+  top: 50%;
+  -webkit-text-stroke: 0.1vh rgba(255, 255, 255, 0.082);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  letter-spacing: 3rem;
+}
+.section h5 {
+  font-size: 1.2rem;
+  transform: rotate(90deg);
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  right: 0%;
+  bottom: 20%;
+}
+
+.links {
+  position: absolute;
+  left: 0%;
+  bottom: 20%;
+  height: 18px;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  transition: 0.2s linear;
+}
+
+.links i:nth-child(2) {
+  color: rgb(228, 20, 106);
+}
+.list:hover {
+  transition: 0.2s linear;
+  transform: translateY(-18px);
+}
+
+.mouse {
+  width: 30px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 40%;
+  left: 50%;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  animation: rundot 1.8s infinite linear;
+  transform: translateY(-10px);
+}
+@keyframes rundot {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(50px) scale(0);
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 813px) {
+  .left-home h4 {
+    font-size: 3.5rem;
+  }
+  .left-home p {
+    font-size: 1.4rem;
+  }
+  .section h1 {
+    font-size: 24vw;
+  }
+}
