@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
        <Routes>
-      <Route path="newgitreactapp" exact element={<Home/>}></Route> 
-      <Route path="*" exact element={<Resume/>}></Route>
+      <Route path="newgitreactapp"  element={<Home/>}></Route> 
+      <Route path="*"  element={<Resume/>}></Route>
       </Routes>
     </div>
   );
