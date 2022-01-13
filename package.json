@@ -1,6 +1,7 @@
 {
   "name": "newapp",
   "homepage": "https://naresh1239.github.io/newgitreactapp",
+  "backpage": "https://naresh1239.github.io/resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
