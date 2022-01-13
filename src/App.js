@@ -6,12 +6,13 @@ import './App.css';
 
 function App() {
   return (
-   
+   <>
        <Switch>
       <Route path="/" exact component={Home}></Route> 
       <Route path="/Resume"  component={Resume}></Route>
+      <Home/>
       </Switch>
-    
+      </>
     
   );
 }
