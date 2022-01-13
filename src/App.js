@@ -9,7 +9,7 @@ function App() {
     <div>
        <Routes>
       <Route path="newgitreactapp" exact element={<Resume/>}></Route> 
-      <Route path="Resume" exact element={}></Route> 
+      
       </Routes>
     </div>
   );
