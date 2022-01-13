@@ -9,7 +9,7 @@ function App() {
    <>
        <Switch>
       <Route path="/" exact component={Home}></Route> 
-      <Route path="/Resume"  component={Resume}></Route>
+      <Route path="/newgitreactapp"  component={Resume}></Route>
       <Home/>
       </Switch>
       </>
