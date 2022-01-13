@@ -29,7 +29,7 @@ const About = () => {
               <h5>SASS</h5>
               <h5>GIT</h5>
             </div>
-            <a href="https://drive.google.com/file/d/1nDYxIZYrSaUZLKsl_-HwokXb7-_UbvgM/view" target="_blank"><button className="button">Download CV</button></a>
+            <a href="https://naresh1239.github.io/myresume/" target="_blank"><button className="button">Download CV</button></a>
             
           </div>
           <div data-aos="fade-up" className="about-right">
