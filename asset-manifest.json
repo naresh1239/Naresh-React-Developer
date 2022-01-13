@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/newgitreactapp/static/css/main.f1b19dad.css",
-    "main.js": "/newgitreactapp/static/js/main.bf153bf3.js",
+    "main.js": "/newgitreactapp/static/js/main.2488c8e8.js",
     "static/js/787.8a5f59be.chunk.js": "/newgitreactapp/static/js/787.8a5f59be.chunk.js",
     "static/media/2-min.jpg": "/newgitreactapp/static/media/2-min.6d691ed829b184076114.jpg",
     "index.html": "/newgitreactapp/index.html",
     "main.f1b19dad.css.map": "/newgitreactapp/static/css/main.f1b19dad.css.map",
-    "main.bf153bf3.js.map": "/newgitreactapp/static/js/main.bf153bf3.js.map",
+    "main.2488c8e8.js.map": "/newgitreactapp/static/js/main.2488c8e8.js.map",
     "787.8a5f59be.chunk.js.map": "/newgitreactapp/static/js/787.8a5f59be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1b19dad.css",
-    "static/js/main.bf153bf3.js"
+    "static/js/main.2488c8e8.js"
   ]
 }
