@@ -10,6 +10,8 @@ function App() {
           Edit <code>src/App.js</code>
         </p>
         <p>naresh kumawat</p>
+        <p>naresh kumawat</p>
+        <p>naresh kumawat</p>
         <a
           className="App-link"
           href="https://reactjs.org"
