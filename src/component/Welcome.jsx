@@ -21,7 +21,16 @@ setscreenvalue(200)
   window.addEventListener("scroll", function () {
     const scroll = window.scrollY /23*25;
     const text = scroll + screenvalue + "px";
-    setflex(text);
+
+
+      
+if(window.scrollY > 887){
+  setflex("")
+}
+else{
+  setflex(text);
+}
+    
   });
 
   return (
@@ -31,7 +40,7 @@ setscreenvalue(200)
           Scroll down <i className="bi bi-arrow-right"></i>
         </h5>
         <div className="container d-flex">
-          <h1 style={{ left: flex }}>ANONYMOUS</h1>
+          <h1 style={{left: flex }}>ANONYMOUS</h1>
           <div data-aos="fade-up" className="left-home">
             <h4>
               Hi, I'am{" "}
