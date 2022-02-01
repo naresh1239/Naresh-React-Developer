@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/newgitreactapp/static/css/main.b875a038.css",
-    "main.js": "/newgitreactapp/static/js/main.094f668e.js",
+    "main.css": "/newgitreactapp/static/css/main.f2c15b0f.css",
+    "main.js": "/newgitreactapp/static/js/main.d563fbd2.js",
     "static/js/787.8a5f59be.chunk.js": "/newgitreactapp/static/js/787.8a5f59be.chunk.js",
     "static/media/2-min.jpg": "/newgitreactapp/static/media/2-min.6d691ed829b184076114.jpg",
     "index.html": "/newgitreactapp/index.html",
-    "main.b875a038.css.map": "/newgitreactapp/static/css/main.b875a038.css.map",
-    "main.094f668e.js.map": "/newgitreactapp/static/js/main.094f668e.js.map",
+    "main.f2c15b0f.css.map": "/newgitreactapp/static/css/main.f2c15b0f.css.map",
+    "main.d563fbd2.js.map": "/newgitreactapp/static/js/main.d563fbd2.js.map",
     "787.8a5f59be.chunk.js.map": "/newgitreactapp/static/js/787.8a5f59be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b875a038.css",
-    "static/js/main.094f668e.js"
+    "static/css/main.f2c15b0f.css",
+    "static/js/main.d563fbd2.js"
   ]
 }
