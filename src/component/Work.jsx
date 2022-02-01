@@ -47,7 +47,7 @@ const Work = () => {
 
           <div data-aos="fade-up" className="work">
             <div className="right-work">
-              <a href="https://naresh1239.github.io/payme/" target="_blank">
+              <a href="https://github.com/naresh1239" target="_blank">
                 <h5>Featured Project</h5>
               </a>
               <h1>payapp</h1>
@@ -63,7 +63,7 @@ const Work = () => {
 
             <div data-aos="fade-up" className="left-work">
               <a
-                href="https://naresh1239.github.io/reactpaywebsite/"
+                href="https://naresh1239.github.io/payme/"
                 target="_blank"
               >
                 <div className="work-img">
@@ -77,7 +77,7 @@ const Work = () => {
           <div data-aos="fade-up" className="work">
             <div className="left-work">
               <a
-                href="https://naresh1239.github.io/kumawatishere.github.io/"
+                href="http://kumawatishere.herokuapp.com/"
                 target="_blank"
               >
                 <div data-aos="fade-up" className="work-img">
