@@ -47,7 +47,7 @@ const Work = () => {
 
           <div data-aos="fade-up" className="work">
             <div className="right-work">
-              <a href="https://github.com/naresh1239" target="_blank">
+              <a href="https://naresh1239.github.io/payme/" target="_blank">
                 <h5>Featured Project</h5>
               </a>
               <h1>payapp</h1>
