@@ -13,6 +13,7 @@ nav {
   margin: auto;
   color: white;
 
+
   top: 0%;
 }
 .fullwidth {
@@ -151,7 +152,7 @@ nav {
   transform: rotate(-45deg);
 }
 
-@media screen and (max-width: 937px) {
+@media screen and (max-width: 1043px) {
   .icon ul {
     display: none;
   }
@@ -164,4 +165,13 @@ nav {
   .hidenav{
     display: grid;
   } 
+} 
+@media screen and (max-width: 1215px) {
+
+  .icon ul li {
+    margin: 0 10px;
+    padding: 10px 5px;
+    list-style: none;
+    position: relative;
+  }
 } 

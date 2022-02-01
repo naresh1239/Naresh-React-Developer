@@ -3,19 +3,21 @@
   margin: 0;
   box-sizing: border-box;
   color: rgb(235, 235, 250);
+
 }
 html{
     scroll-behavior: smooth;
 }
 .section {
   min-height: 100vh;
-  min-width: 100%;
+  max-width: 100%;
   overflow: hidden;
   position: relative;
   background-attachment: fixed;
   background-color: rgb(12, 7, 36);
   transform: translateY(-60px);
-  right: 0;
+  top: 0;
+  overflow-x: hidden;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,3 +87,11 @@ html{
 .button:hover::before {
   top: 100%;
 }
+
+
+@media screen and (max-width: 500px) {
+.section{
+  background-position: center;
+}
+
+  }

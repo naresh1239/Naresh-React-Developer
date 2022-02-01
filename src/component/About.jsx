@@ -28,6 +28,9 @@ const About = () => {
               <h5>CSS</h5>
               <h5>SASS</h5>
               <h5>GIT</h5>
+              <h5>Tailwind css</h5>
+              <h5>Redux</h5>
+              <h5>NExt.js</h5>
             </div>
             <a href="https://naresh1239.github.io/resume/" target="_blank"><button className="button">Download CV</button></a>
             

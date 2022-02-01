@@ -34,6 +34,7 @@ background-color: rgb(12, 7, 36);
 }
 .about-things {
   display: flex;
+  flex-wrap: wrap;
 }
 .about-things h5 {
   padding: 0 10px;
