@@ -16,11 +16,8 @@ html{
   background-attachment: fixed;
   background-color: rgb(12, 7, 36);
   transform: translateY(-60px);
-  top: 0%;
-  left: 0%;
   overflow-x: hidden;
   z-index: 1;
-  background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../public/images/2-min.jpg");
@@ -95,6 +92,7 @@ html{
 .section{
   background-position: center;
   background: none;
+  background-color: rgb(12, 7, 36);
 
 }
 
