@@ -17,7 +17,7 @@ const Work = () => {
           {/* start */}
           <div className="work">
             <div data-aos="fade-up" className="left-work">
-              <a href="https://be-strongman.herokuapp.com/" target="_blank">
+              <a href="https://naresh1239.github.io/be-strong/" target="_blank">
                 <div className="work-img">
                   <img src="./images/project2-min.png" alt="" />
                 </div>
