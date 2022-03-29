@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
  import "./css-component/Work.css";
-
+import two from "../images/project1-min.png"
+import one from "../images/project2-min.png"
+import three from "../images/project3-min.png"
 
 const Work = () => {
 
@@ -19,7 +21,7 @@ const Work = () => {
             <div data-aos="fade-up" className="left-work">
               <a href="https://naresh1239.github.io/be-strong/" target="_blank">
                 <div className="work-img">
-                  <img src="./images/project2-min.png" alt="" />
+                  <img src={one} alt="" />
                 </div>
               </a>
             </div>
@@ -67,7 +69,7 @@ const Work = () => {
                 target="_blank"
               >
                 <div className="work-img">
-                  <img src="./images/project1-min.png" alt="" />
+                  <img src={two} alt="" />
                 </div>
               </a>
             </div>
@@ -81,7 +83,7 @@ const Work = () => {
                 target="_blank"
               >
                 <div data-aos="fade-up" className="work-img">
-                  <img src="./images/project3-min.png" alt="" />
+                  <img src={three} alt="" />
                 </div>
               </a>
             </div>

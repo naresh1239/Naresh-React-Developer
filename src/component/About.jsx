@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import "./css-component/About.css";
 import "../App.css"
-
+import mine from "../images/my-photo.jpg"
 
 const About = () => {
 
@@ -38,7 +38,7 @@ const About = () => {
           <div data-aos="fade-up" className="about-right">
           <a href="https://github.com/naresh1239" target="_blank">
             <div className="img-div">
-            <img src="./images/my-photo.jpg" alt="" />
+            <img src={mine} alt="s" />
             </div>
             </a>
           </div>
