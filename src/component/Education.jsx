@@ -1,19 +1,21 @@
+
 import React, { useState, useEffect } from "react";
-import "./css-component/Education.css";
+
 import Api from "./Api";
 
 
-const Education = () => {
+const Home = () => {
   
   const [newapi, setnewapi] = useState(Api);
+  const [togglestate, settogglestate] = useState(1)
 
-
-  const filter = (cat) => {
+  const filter = (cat,no=1) => {
     const updatedata = Api.filter((elem) => {
       return elem.cat === cat;
     });
     setnewapi(updatedata);
-   
+    
+   settogglestate(no)
   };
 
     useEffect(() => {
@@ -31,17 +33,19 @@ const Education = () => {
           </div>
           <div data-aos="fade-up" className="edu-flex">
             <div className="edu-left">
-              <div className={`btn `} onClick={() => filter("skill")}>
-                Skills
+              <div className={togglestate === 1 ? " active-btn" : "btn"} onClick={() => filter("skill",1)} >
+               Skills
+                
               </div>
-              <div className={`btn `} onClick={() => filter("edu")}>
-                Qualification
+              <div className={togglestate === 2 ? " active-btn" : "btn"} onClick={() => filter("edu",2)}>
+               Qualification
+                
               </div>
-              <div className={`btn `} onClick={() => filter("aim")}>
-                Goals
+              <div className={togglestate === 3 ? " active-btn" : "btn"} onClick={() => filter("aim",3)}>
+               Goals
               </div>
-              <div className={`btn `} onClick={() => filter("pro")}>
-                Projects
+              <div className={togglestate === 4 ? " active-btn" : "btn"} onClick={() => filter("pro",4)}>
+               Projects
               </div>
             </div>
             <div data-aos="fade-up" className="edu-right">
@@ -59,9 +63,14 @@ const Education = () => {
             </div>
           </div>
         </div>
-      </section>
+        
+      
+      
+</section>
     </>
   );
 };
 
-export default Education;
+
+
+export default Home
