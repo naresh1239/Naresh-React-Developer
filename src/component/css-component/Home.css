@@ -38,7 +38,7 @@
   filter: blur(155px);
   background-color: rgb(12, 7, 36);
   mix-blend-mode: hue;
-  animation: run 3s infinite linear;
+  animation: run 4s infinite linear;
 }
 /* // */
 .left-home p {
@@ -118,9 +118,10 @@
     transform: translateY(-10px);
   }
   50% {
-    transform: translateY(50px) scale(0);
-
+    transform: translateY(50px) scale(0) rotate(160deg) ;
+    background-color: transparent;
   }
+
   100% {
     transform: translateY(-10px) ;
  
