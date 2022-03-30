@@ -43,7 +43,7 @@ else{
           <h1 style={{left: flex }}>ANONYMOUS</h1>
           <div data-aos="fade-up" className="left-home">
             <h4>
-              Hi, I'am{" "}
+              Hii, I'am{" "}
               <span className="auto-input">
                 <Typewriter
                   loop
