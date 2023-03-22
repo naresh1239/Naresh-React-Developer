@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newgitreactapp/static/css/main.07a8bac4.css",
-    "main.js": "/newgitreactapp/static/js/main.c807b970.js",
+    "main.js": "/newgitreactapp/static/js/main.ee2be5bb.js",
     "static/js/787.8a5f59be.chunk.js": "/newgitreactapp/static/js/787.8a5f59be.chunk.js",
     "static/media/2-min.jpg": "/newgitreactapp/static/media/2-min.6d691ed829b184076114.jpg",
     "static/media/project2-min.png": "/newgitreactapp/static/media/project2-min.e2f2226ee3d46454e035.png",
@@ -10,11 +10,11 @@
     "static/media/project3-min.png": "/newgitreactapp/static/media/project3-min.96832e0a08c5da3d837d.png",
     "index.html": "/newgitreactapp/index.html",
     "main.07a8bac4.css.map": "/newgitreactapp/static/css/main.07a8bac4.css.map",
-    "main.c807b970.js.map": "/newgitreactapp/static/js/main.c807b970.js.map",
+    "main.ee2be5bb.js.map": "/newgitreactapp/static/js/main.ee2be5bb.js.map",
     "787.8a5f59be.chunk.js.map": "/newgitreactapp/static/js/787.8a5f59be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07a8bac4.css",
-    "static/js/main.c807b970.js"
+    "static/js/main.ee2be5bb.js"
   ]
 }
