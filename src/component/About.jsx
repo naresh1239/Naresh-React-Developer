@@ -38,7 +38,7 @@ const About = () => {
           <div data-aos="fade-up" className="about-right">
           <a href="https://github.com/naresh1239" target="_blank">
             <div className="img-div">
-            <img src={mine} alt="s" />
+            <img src='https://media.licdn.com/dms/image/D4D03AQEuo1IBMYjrNg/profile-displayphoto-shrink_800_800/0/1678802123561?e=2147483647&v=beta&t=xuCXjXGNXI14_ZlRkI0ISThSEWi5zSWBjPtbrZjv2SM' alt="s" />
             </div>
             </a>
           </div>

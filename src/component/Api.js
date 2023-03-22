@@ -4,7 +4,7 @@ const Api = [
     id: 1,
     title: "Frontend Developer",
     cat : "skill",
-    ex : "More than 3 years ",
+    ex : "More than 1 years ",
     p: <div className="progress">
       <div className="flex">
         <h5>HTML</h5>
