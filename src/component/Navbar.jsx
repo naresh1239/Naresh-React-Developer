@@ -44,7 +44,7 @@ const Navbar = () => {
       <section className={`fullwidth  `}>
         <nav>
           <div className="logo">
-            <h4>ANONYMOUS</h4>
+            <h4>Naresh - React Developer</h4>
           </div>
           <div className="icon">
             <ul>

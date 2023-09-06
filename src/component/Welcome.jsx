@@ -11,27 +11,27 @@ const Welcome = () => {
   const [screenvalue, setscreenvalue] = useState();
   const [flex, setflex] = useState(screenvalue);
 
-window.addEventListener("scroll",function(){
- if( window.innerWidth < 527){
-setscreenvalue(200)
- }else{
-  setscreenvalue(600)
- }
-})
-  window.addEventListener("scroll", function () {
-    const scroll = window.scrollY /23*25;
-    const text = scroll + screenvalue + "px";
+// window.addEventListener("scroll",function(){
+//  if( window.innerWidth < 527){
+// setscreenvalue(200)
+//  }else{
+//   setscreenvalue(600)
+//  }
+// })
+//   window.addEventListener("scroll", function () {
+//     const scroll = window.scrollY /23*25;
+//     const text = scroll + screenvalue + "px";
 
 
       
-if(window.scrollY > 887){
-  setflex("")
-}
-else{
-  setflex(text);
-}
+// if(window.scrollY > 887){
+//   setflex("")
+// }
+// else{
+//   setflex(text);
+// }
     
-  });
+//   });
 
   return (
     <>
@@ -61,9 +61,9 @@ else{
               </span>
             </h4>
             <p>
-            High level experience in Front-end web developement knowledge.
+            I am a Frontend React Developer with 1.6 years of experience.
               <br />
-              Producing quality work.
+          Master in React love to work in JavaScript
             </p>
           </div>
           <div className="links">

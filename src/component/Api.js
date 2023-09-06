@@ -2,9 +2,9 @@ import "./css-component/Education.css"
 const Api = [
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "React  Developer",
     cat : "skill",
-    ex : "More than 1 years ",
+    ex : "More than 1.6 years ",
     p: <div className="progress">
       <div className="flex">
         <h5>HTML</h5>
@@ -13,29 +13,38 @@ const Api = [
       <meter max="100" min="20" value="90"></meter>
 
       <div className="flex">
-        <h5>css</h5>
+        <h5>Css</h5>
         <h5>80%</h5>
       </div>
       <meter max="100" min="20" value="80"></meter>
 
       <div className="flex">
-        <h5>javascript</h5>
-        <h5>60%</h5>
+        <h5>Redux</h5>
+        <h5>80%</h5>
       </div>
-      <meter max="100" min="20" value="60"></meter>
-
+      <meter max="100" min="20" value="80"></meter>
       <div className="flex">
-        <h5>bootstrap</h5>
+        <h5>Javascript</h5>
         <h5>80%</h5>
       </div>
       <meter max="100" min="20" value="80"></meter>
 
+
       <div className="flex">
-        <h5>react</h5>
-        <h5>75%</h5>
+        <h5>React</h5>
+        <h5>80%</h5>
       </div>
-      <meter max="100" min="20" value="75"></meter>
-      
+      <meter max="100" min="20" value="80"></meter>
+      <div className="flex">
+        <h5>Bootstrap</h5>
+        <h5>70%</h5>
+      </div>
+      <meter max="100" min="20" value="70"></meter>
+      <div className="flex">
+        <h5>Tailwind</h5>
+        <h5>90%</h5>
+      </div>
+      <meter max="100" min="20" value="90"></meter>
     </div> ,
   },
 
@@ -57,16 +66,7 @@ const Api = [
     cat : "aim",
     p: "I want to become a full stack mern developer ",
   },
-  {
-    id: 4,
-    title: "Web Development",
-    ex : "",
-    cat : "edu",
-    p: <div className="education-api">
-    <h5>Youtube</h5>
-    <p>2019-202..</p>
-  </div>,
-  },
+
   {
     id: 4,
     title: "Some fontend designs",
