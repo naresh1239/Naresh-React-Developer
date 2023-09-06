@@ -63,7 +63,7 @@ const Welcome = () => {
             <p>
             I am a Frontend React Developer with 1.6 years of experience.
               <br />
-          Master in React love to work in JavaScript
+              Specializing in React and JavaScript. Explore my portfolio and expertise in web development.
             </p>
           </div>
           <div className="links">
