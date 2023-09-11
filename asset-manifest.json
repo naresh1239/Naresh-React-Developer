@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/newgitreactapp/static/css/main.07a8bac4.css",
-    "main.js": "/newgitreactapp/static/js/main.badc187c.js",
-    "static/js/787.8a5f59be.chunk.js": "/newgitreactapp/static/js/787.8a5f59be.chunk.js",
-    "static/media/2-min.jpg": "/newgitreactapp/static/media/2-min.6d691ed829b184076114.jpg",
-    "static/media/project2-min.png": "/newgitreactapp/static/media/project2-min.e2f2226ee3d46454e035.png",
-    "static/media/project1-min.png": "/newgitreactapp/static/media/project1-min.b30b79c0a19abccb51f0.png",
-    "static/media/my-photo.jpg": "/newgitreactapp/static/media/my-photo.05dd9380f32eb8a05c8a.jpg",
-    "static/media/project3-min.png": "/newgitreactapp/static/media/project3-min.96832e0a08c5da3d837d.png",
-    "index.html": "/newgitreactapp/index.html",
-    "main.07a8bac4.css.map": "/newgitreactapp/static/css/main.07a8bac4.css.map",
-    "main.badc187c.js.map": "/newgitreactapp/static/js/main.badc187c.js.map",
-    "787.8a5f59be.chunk.js.map": "/newgitreactapp/static/js/787.8a5f59be.chunk.js.map"
+    "main.css": "/Naresh-React-Developer/static/css/main.1b2a6c26.css",
+    "main.js": "/Naresh-React-Developer/static/js/main.19ef5390.js",
+    "static/js/787.8a5f59be.chunk.js": "/Naresh-React-Developer/static/js/787.8a5f59be.chunk.js",
+    "static/media/2-min.jpg": "/Naresh-React-Developer/static/media/2-min.6d691ed829b184076114.jpg",
+    "static/media/project2-min.png": "/Naresh-React-Developer/static/media/project2-min.e2f2226ee3d46454e035.png",
+    "static/media/project1-min.png": "/Naresh-React-Developer/static/media/project1-min.b30b79c0a19abccb51f0.png",
+    "static/media/my-photo.jpg": "/Naresh-React-Developer/static/media/my-photo.05dd9380f32eb8a05c8a.jpg",
+    "static/media/project3-min.png": "/Naresh-React-Developer/static/media/project3-min.96832e0a08c5da3d837d.png",
+    "index.html": "/Naresh-React-Developer/index.html",
+    "main.1b2a6c26.css.map": "/Naresh-React-Developer/static/css/main.1b2a6c26.css.map",
+    "main.19ef5390.js.map": "/Naresh-React-Developer/static/js/main.19ef5390.js.map",
+    "787.8a5f59be.chunk.js.map": "/Naresh-React-Developer/static/js/787.8a5f59be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a8bac4.css",
-    "static/js/main.badc187c.js"
+    "static/css/main.1b2a6c26.css",
+    "static/js/main.19ef5390.js"
   ]
 }
