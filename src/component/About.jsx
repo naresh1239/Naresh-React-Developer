@@ -41,7 +41,7 @@ If you are looking for a talented and motivated Frontend React Developer, I woul
               <h5>REST Api</h5>
               <h5>Fontend developer</h5>
             </div>
-            <a href="https://drive.google.com/file/d/1dOA8DuPHQDQ4U0_mrCvRTn5raekuJcuw/view?pli=1" target="_blank"><button className="button">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/1dmKGprdlqZitgWg-Lo9yjNCNRNsEiZnF/view" target="_blank"><button className="button">Download CV</button></a>
             
           </div>
           <div data-aos="fade-up" className="about-right">
